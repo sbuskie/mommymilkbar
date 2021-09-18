@@ -77,10 +77,10 @@ def convert_column_names(x):
 	elif x == "Mommy's Medication [Ibuprofen]":
 		return 'Ibuprofen'
 	elif x == "Mommy's Medication [Paracetamol]":
-		return 'Ibuprofen'
+		return 'Paracetamol'
 	elif x == "Mommy's Medication [Fluoxetine]":
-		return 'Ibuprofen'
-	elif x == 'Feeding Duration (right)':
+		return 'Fluoxetine'
+	elif x == 'Feeding duration (right)':
 		return 'duration_right'
 	elif x == "Mommy's Medication [Prenatal vitamin]":
 		return 'prenatal'
