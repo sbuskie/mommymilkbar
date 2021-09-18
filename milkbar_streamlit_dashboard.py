@@ -71,9 +71,9 @@ def convert_column_names(x):
 	elif x == 'Pumping duration (minutes)':
 		return 'pump_duration'
 	elif x == 'Supplemental Feeding (nearest ounce)':
-		return 'supplement'
+		return 'supplement_ounces'
 	elif x == 'Vitamin D':
-		return 'Vitamin'
+		return 'Vitamin_D'
 	elif x == "Mommy's Medication [Ibuprofen]":
 		return 'Ibuprofen'
 	elif x == "Mommy's Medication [Paracetamol]":
