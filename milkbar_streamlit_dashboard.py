@@ -110,10 +110,11 @@ st.altair_chart(alt.Chart(data)
 	color='count(data):Q',
 	tooltip=[
 		alt.Tooltip('hours(date_time):O', title='hour'),
-		alt.Tooltip('count(data):Q', title='Wiggle count')
+		alt.Tooltip('count(data):Q', title='action'),
+		alt.Tooltip('count(diaper):Q', title='diaper')
 	]
 ).properties(
-	title='All the wiggles'
+	title='All the milk bar activities'
 ))
 
 st.title("Wiggles by hour")
