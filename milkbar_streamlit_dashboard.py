@@ -64,8 +64,26 @@ def main(spreadsheets):
 def convert_column_names(x):
 	if x == 'Timestamp':
 		return 'date_time'
-	elif x == 'Yes, I felt movements':
-		return 'movement'
+	elif x == 'Feeding duration (left)':
+		return 'duration_left'
+	elif x == 'Diaper Check':
+		return 'diaper'
+	elif x == 'Pumping duration (minutes)':
+		return 'pump_duration'
+	elif x == 'Supplemental Feeding (nearest ounce)':
+		return 'supplement'
+	elif x == 'Vitamin D':
+		return 'Vitamin'
+	elif x == "Mommy's Medication [Ibuprofen]":
+		return 'Ibuprofen'
+	elif x == "Mommy's Medication [Paracetamol]":
+		return 'Ibuprofen'
+	elif x == "Mommy's Medication [Fluoxetine]":
+		return 'Ibuprofen'
+	elif x == 'Feeding Duration (right)':
+		return 'duration_right'
+	elif x == "Mommy's Medication [Prenatal vitamin]":
+		return 'prenatal'
 	else:
 		return x
 
