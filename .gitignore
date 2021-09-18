@@ -1,0 +1,4 @@
+*.json
+.streamlit/
+key-to-toml.py
+*.csv

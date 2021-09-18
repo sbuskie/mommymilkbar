@@ -81,8 +81,8 @@ data['date_time'] = pd.to_datetime(data['date_time']) # this creates an odd time
 st.title("Mommy's Milk Bar")
 st.image('./Eat_Local.jpg', caption="Eat Local at Mommy's Milk Bar")
 
-st.subheader('Record wiggles here https://forms.gle/xW1HJuyCyQ4bywFU7')
-st.subheader('View all wiggles')
+st.subheader('Record wiggles here https://docs.google.com/forms/d/e/1FAIpQLSdlKkmgFKdIyj7wT4I2QdPqNUI6DZWliE4vH4EWE59z6kwqPg/viewform?vc=0&c=0&w=1&flr=0')
+st.subheader("Mommy's Milk Bar House Rules: No fussin', no cussin', open 24/7")
 st.write(data)
 st.altair_chart(alt.Chart(data)
 				.mark_rect()
